@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Coding Quiz</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Coding Quiz</title>
   </head>
   <body>
     <header>
+
         <div class="large-font">Javascript Quiz</div>
-        <button class="submit">Submit</button>
+        <p>Click the Start button to begin the JavaScript quiz.  
+          Answer all questions before 90 seconds to win.</p>
+        <h5 id="time">Timer: 60</h5>
+        <button id="start">Start</button>
     </header>
 
     <main> 
-    <div>
-      <button class = "reset-button">Reset</button>
-
+    <div id="quiz-container" style="display: none">
+      <h2 id="questionHeading"></h2>
+        <ul>
+          <div id="answers">
+            <button id="answerA"></button>
+          </div>
+          <div> 
+            <button id="answerB"></button>
+          </div>
+          <div>
+            <button id="answerC"></button>
+          </div>
+          <div>
+            <button id="answerD"></button>
+          </div>
+        </ul>
     </div>
 
    </main>

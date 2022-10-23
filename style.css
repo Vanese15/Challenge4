@@ -3,17 +3,23 @@
 
 }
 
+
+.h5 {
+    display:inline-block;
+    font-size: 1.25rem;
+    margin-top: 100;
+    padding-right: 500px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
-
 }
 
 .question{
     font-weight: 600;
-
 }
 
 .answer {
@@ -21,24 +27,24 @@ body {
 }
 
 header {
-    padding: 40px;
+    padding: 10px 0px 0px;
     text-align: center;
-    background-color: black;
+    background-color: rebeccapurple;
     color: whitesmoke;
-    font-size: 350%
+    font-size: 200%
     
 }
 
 #button {
-    background: radial-gradient(circle, gray 0%, gray 100%);
+    background: radial-gradient(circle, gray 50%, gray 500%);
     border-radius: 8px;
     color: whitesmoke;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 200px;
     letter-spacing: 0.21px;
     line-height: 16px;
     max-width: 255px;
-    padding: 20px 52px;
+    padding: 10px 5px;
     text-align: center;
     transition-duration: 0.15s;
     transition-property: background-color;
@@ -61,3 +67,6 @@ header {
     transition-timing-function: linear;
     margin-top: 0.6em;
 }
+
+  
+
